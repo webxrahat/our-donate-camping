@@ -1,3 +1,7 @@
+/* this is global area start */
+/* ================================================== */
+/* this is global section and create style by (*). */
+
 *{
     margin: 0;
     padding: 0;
@@ -11,6 +15,9 @@
     /* color: #bde0fe; */
     /* color: #ffcb77; */
 }
+/* this is global area end */
+/* ================================================== */
+
 /* this is header section start */
 /* ================================================== */
 /* this is header section id and name is top */
@@ -24,13 +31,11 @@
     text-align: center;
 
 }
-/* this is containar class section */
 
 .container{
     padding: 200px 80px 0px ;
 }
 
-/* this is h1 tag and name is main */
 .main{
     margin-top: 150px;
     color: #f6f6f6;
@@ -38,7 +43,6 @@
     text-transform: capitalize;
     letter-spacing: 1px;
 }
-/* this is paragraph tag and name is main-p */
 .main-p{
     margin: 20px  0px ;
 font-size: 18px;
@@ -54,6 +58,12 @@ line-height: 1.5;
     border: 1px solid #f6f6f6;
 }
 
+/* this is header section end */
+/* =========================================== */
+
+/* this is second section start */
+/* ================================================== */
+/* section id and name is second */
 #second{
     padding: 80px 50px;
     text-align: center;
@@ -70,6 +80,13 @@ line-height: 1.5;
     color: #8d99ae;
     line-height: 1.5;
 }
+/* this is second section end */
+/* =========================================== */
+
+/* this is third section start */
+/* ================================================== */
+/* section id and name is third */
+
 #third{
     color: #8d99ae;
     display: flex;
@@ -84,6 +101,13 @@ line-height: 1.5;
     border: 2px solid red;
     background-color: #ffadadba;
 }
+/* third section end */
+/* =========================================== */
+
+/* this is fourth section start */
+/* ================================================== */
+/*  section id and name is fourth */
+
 #fourth{
     text-align: center;
     padding-top: 80px;
@@ -93,6 +117,13 @@ line-height: 1.5;
     font-size: 26px;
     font-weight: 700;
 }
+/*  fourth section end */
+/* =========================================== */
+
+/* this is fifth section start */
+/* ================================================== */
+/*  section id and name is fifth */
+
 #fifth{
     text-align: center;
     padding: 150px 100px 10px;
@@ -109,6 +140,13 @@ line-height: 1.5;
     color: #8d99ae;
     line-height: 1.5;
 }
+/* fifth section end */
+/* =========================================== */
+
+/* this is sixth section start */
+/* ================================================== */
+/*  section id and name is sixth */
+
 #sixth{
     margin: 50px 50px;
 }
@@ -157,13 +195,32 @@ line-height: 1.5;
     line-height: 1.5;
     font-weight: 500;
 }
+/* sixth section end */
+/* =========================================== */
+
+/* this is seven section start */
+/* ================================================== */
+/*  section id and name is seven */
+
 #seven{
     text-align: center;
-    font-size: 18px;
-    color: #001219;
-    text-transform: uppercase;
     padding-top: 50px;
 }
+.our-work{
+    font-size: 26px;
+    color: #001219;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+/* seven section end */
+/* =========================================== */
+
+/* this is eight section start */
+/* ================================================== */
+/* section id and name is eight */
+
 #eight{
     text-align: center;
     padding: 50px 0px;
@@ -181,6 +238,14 @@ line-height: 1.5;
     transform: scale(1.1);
     box-shadow: 0px 10px 5px gray;
 }
+
+/* eight section end */
+/* =========================================== */
+
+/* this is nine section start */
+/* ================================================== */
+/* section id and name is nine */
+
 #nine{
     text-align: center;
     padding: 20px 150px;
@@ -198,6 +263,13 @@ line-height: 1.5;
     line-height: 1.5;
     font-weight: 500;
 }
+/* nine section end */
+/* =========================================== */
+
+/* this is ten section start */
+/* ================================================== */
+/* ten section id and name is ten */
+
 #ten{
     text-align: center;
     padding: 80px;
@@ -217,6 +289,13 @@ line-height: 1.5;
     border: none;
     color: #f6f6f6;
 }
+/* ten section end */
+/* =========================================== */
+
+/* this is footer section start */
+/* ================================================== */
+/* footer section id and name is footer */
+
 #footer{
     padding: 50px 0px;
     background-color: #001219;
@@ -231,3 +310,5 @@ line-height: 1.5;
 .copy-right{
     font-size: 18px;
 }
+/* footer section end */
+/* =========================================== */
