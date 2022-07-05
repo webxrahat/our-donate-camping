@@ -59,6 +59,12 @@
     display: inline-block;
     border-radius: 10px;
     border: 1px solid #f6f6f6;
+    transition: all .3s ease-in-out;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: #001219;
+    color: #f6f6f6;
 }
 
 /* this is header section end */
@@ -317,7 +323,14 @@
     font-size: 18px;
     border: none;
     color: #f6f6f6;
+    transition: all .3s ease-in-out;
 }
+.bnn:hover{
+    cursor: pointer;
+    background-color: #001219;
+    color: #f6f6f6;
+}
+
 
 /* ten section end */
 /* =========================================== */
