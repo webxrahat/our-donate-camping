@@ -3,13 +3,12 @@
     padding: 0;
     box-sizing: border-box;
     text-decoration: none;
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Lato', sans-serif;
     /* color: #001219; */
     /* color: #f6f6f6; */
     /* color: #b90504; */
     /* color: #ffc8dd; */
     /* color: #bde0fe; */
-    /* color: #d0f4de; */
     /* color: #ffcb77; */
 }
 /* this is header section start */
@@ -56,19 +55,99 @@ line-height: 1.5;
 }
 
 #second{
-    padding: 50px 50px;
+    padding: 80px 50px;
     text-align: center;
 }
 .donate-today{
     font-size: 26px;
-    font-weight: 600;
+    font-weight: 700;
     color: #001219;
-    letter-spacing: 1px;
     margin-bottom: 20px;
 }
 .donate-today-p{
     font-size: 18px;
     font-weight: 500;
-    color: #001219;
+    color: #8d99ae;
     line-height: 1.5;
+}
+#third{
+    color: #8d99ae;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0px 300px;
+    letter-spacing: 1px;
+}
+.active{
+    color: red;
+    padding: 20px 12px;
+    border: 2px solid red;
+    background-color: #ffadadba;
+}
+#fourth{
+    text-align: center;
+    padding-top: 80px;
+}
+.other-taka{
+    color: #8d99ae;
+    font-size: 26px;
+    font-weight: 700;
+}
+#fifth{
+    text-align: center;
+    padding: 150px 100px 10px;
+}
+.plan{
+    color: #001219;
+    font-size: 26px;
+    font-weight: 700;
+}
+.plan-p{
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #8d99ae;
+    line-height: 1.5;
+}
+#sixth{
+    margin: 50px 50px;
+}
+.card-group{
+    display: flex;
+    justify-content: space-between;
+}
+.card-1{
+    flex-basis: 33.3%;
+    background-color: #ffc8dd ;
+    padding: 20px 10px;
+}
+.card-2{
+    flex-basis: 33.3%;
+    margin: 0px 20px;
+    background-color: #bde0fe;
+    padding: 20px 10px;
+}
+.card-3{
+    flex-basis: 33.3%;
+    background-color: #ffcb77;
+    padding: 20px 10px;
+}
+.fa-solid{
+    font-size: 30px;
+    padding-bottom: 20px;
+    color: #8d99ae;
+}
+.card-h3{
+    font-size: 24px;
+    padding-bottom: 10px;
+    color: #001219;
+    letter-spacing: 1px;
+    font-weight: 700;
+}
+.card-p{
+    font-size: 18px;
+    padding-bottom: 30px;
+    color: #8d99ae;
+    line-height: 1.5;
+    font-weight: 500;
 }
