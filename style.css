@@ -14,6 +14,7 @@
     /* color: #ffc8dd; */
     /* color: #bde0fe; */
     /* color: #ffcb77; */
+    /* color: #6c757d; */
 }
 
 /* this is global area end */
@@ -23,7 +24,7 @@
 /* ================================================== */
 /* this is header section id and name is top */
 #top {
-    background-image: linear-gradient(to right, #7ff4f287, #5069806b), url(images/donation13.jpg);
+    background-image: linear-gradient(to left, #2a2c2c87, #19191a6b), url(images/donation13.jpg);
     height: 100vh;
     width: 100%;
     background-position: center;
@@ -50,6 +51,7 @@
     font-size: 18px;
     color: #f6f6f6;
     line-height: 1.5;
+    letter-spacing: 1px;
 }
 
 .btn {
@@ -88,7 +90,7 @@
 .donate-today-p {
     font-size: 18px;
     font-weight: 500;
-    color: #8d99ae;
+    color: #6c757d;
     line-height: 1.5;
 }
 
@@ -100,7 +102,7 @@
 /* section id and name is third */
 
 #third {
-    color: #8d99ae;
+    color: #6c757d;
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -128,7 +130,7 @@
 }
 
 .other-taka {
-    color: #8d99ae;
+    color: #6c757d;
     font-size: 26px;
     font-weight: 700;
 }
@@ -155,7 +157,7 @@
     margin-top: 20px;
     font-size: 18px;
     font-weight: 500;
-    color: #8d99ae;
+    color: #6c757d;
     line-height: 1.5;
 }
 
@@ -179,7 +181,7 @@
     flex-basis: 33.3%;
     background-color: #ffc8dd;
     padding: 20px 10px;
-    box-shadow: 8px 5px 5px gray;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
     border-radius: 20px;
 }
 
@@ -188,7 +190,7 @@
     margin: 0px 20px;
     background-color: #bde0fe;
     padding: 20px 10px;
-    box-shadow: 8px 5px 5px gray;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
     border-radius: 20px;
 }
 
@@ -196,14 +198,14 @@
     flex-basis: 33.3%;
     background-color: #ffcb77;
     padding: 20px 10px;
-    box-shadow: 8px 5px 5px gray;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
     border-radius: 20px;
 }
 
 .fa-solid {
     font-size: 30px;
     padding-bottom: 20px;
-    color: #8d99ae;
+    color: #6c757d;
 }
 
 .card-h3 {
@@ -217,7 +219,7 @@
 .card-p {
     font-size: 18px;
     padding-bottom: 30px;
-    color: #8d99ae;
+    color: #6c757d;
     line-height: 1.5;
     font-weight: 500;
 }
@@ -291,9 +293,10 @@
 .get-p {
     font-size: 18px;
     padding-top: 20px;
-    color: #8d99ae;
+    color: #6c757d;
     line-height: 1.5;
     font-weight: 500;
+    letter-spacing: 1px;
 }
 
 /* nine section end */
@@ -350,6 +353,7 @@
 .be {
     font-size: 24px;
     padding-bottom: 20px;
+    letter-spacing: 1px;
 }
 
 .copy-right {
